@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	char  lower;
-	char  'a';
+	char  lower = 'a';
 
 	while (lower <= 'z' && lower != q || lower != e)
 	{
