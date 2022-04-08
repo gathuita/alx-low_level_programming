@@ -12,7 +12,7 @@ int main(void)
 	int t;
 	int o;
 
-	for (tens = '0'; tens <= '9'; tens++) /*prints first two digit combo 1st for*/
+	for (tens = '0'; tens <= '9'; tens++) /*prints first two digit combo*/
 	{
 		for (ones = '0'; ones <= '9'; ones++)
 		{
