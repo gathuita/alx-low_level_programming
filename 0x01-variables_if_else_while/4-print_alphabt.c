@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char = lower;
-	char = 'a';
+	char  lower;
+	char  'a';
 
-	while (lower <= 'z' && !=q || !=e)
+	while (lower <= 'z' && lower != q || lower != e)
 	{
 		putchar(lower);
 		lower++;
