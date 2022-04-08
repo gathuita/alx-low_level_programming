@@ -7,12 +7,14 @@
 int main(void)
 {
 	char lower = 'a';
-	char exceptq = 'q';
-	char excepte = 'e';
 
-	while (lower <= 'z' && lower != exceptq || lower != excepte)
+	while (lower <= 'z')
 	{
+		if ((lower != 'q') && (lower != 'e'))
+		{
 		putchar(lower);
+
+		}
 		lower++;
 	}
 
