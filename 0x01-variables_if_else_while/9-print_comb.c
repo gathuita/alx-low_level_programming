@@ -12,9 +12,14 @@ int main(void)
 	while (singlenum <= '9')
 	{
 		putchar(singlenum);
+
 		if (singlenum != '9')
 		{
+
 		putchar(',');
+
+		putchar(' ');
+
 		}
 		singlenum++;
 	}
