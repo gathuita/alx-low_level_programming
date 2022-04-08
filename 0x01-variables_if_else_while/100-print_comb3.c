@@ -1,27 +1,29 @@
 #include <stdio.h>
 
 /**
- * main - prrint all possible combinations of two digits
- * Return: 0 always
+ * main - print 00 to 99 with no diblicate digits or combos; no 11, no 10 (01)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	long int n = '10'
-	
-	while (n <= '99')
+	int ones;
+	int tens;
+
+	for (tens = '0'; tens <= '9'; tens++) /*increment tens*/
 	{
-		putchar(n);
-		if (n != '99')
+		for (ones = (tens + 1); ones <= '9'; ones++) /*one's ten+1*/
 		{
-			putchar(',');
+			putchar(tens);
+			putchar(ones);
 
-			putchar(' ');
-
+			if (tens != '8' || ones != '9') /*print commas*/
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		n++;
 	}
-
 	putchar('\n');
 
 	return (0);
