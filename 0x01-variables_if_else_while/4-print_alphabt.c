@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-	char  lower = 'a';
+	char lower = 'a';
+	char exceptq = 'q';
+	char excepte = 'e';
 
-	while (lower <= 'z' && lower != q || lower != e)
+	while (lower <= 'z' && lower != exceptq || lower != excepte)
 	{
 		putchar(lower);
 		lower++;
