@@ -2,8 +2,9 @@
 
 /**
  * main - Print all alphabets in lowercase a-z except q and e
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char lower = 'a';
