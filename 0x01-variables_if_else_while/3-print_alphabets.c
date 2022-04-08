@@ -10,18 +10,16 @@ int main(void)
 	char lower = 'a';
 	char upper = 'Z';
 
-	while (lower <='z') /*it prints lowercases*/
+	while (lower <= 'z') /*it prints lowercases*/
 	{
 		putchar(lower);
 		lower++;
-	
 	}
 
 	while (upper <= 'Z') /*print uppercase A-Z*/
 	{
 		putchar(upper);
 		upper++;
-
 	}
 
 	putchar('\n');
