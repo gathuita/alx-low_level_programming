@@ -5,11 +5,11 @@
  * @c: contains value to be compared
  * Return: Always 0.
  */
-int _islower(int c)
+int _islower(int d)
 
 {
 
-if (c > 'a' && c < 'z')
+if (d > 'a' && d < 'z')
 {
 return (1);
 }
