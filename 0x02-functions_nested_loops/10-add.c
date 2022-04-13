@@ -1,8 +1,10 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 
 /**
  * add - add 2 numbers
+ * @a: is parameter of function add
+ * @b: is a parameter of function add
  * Return: 0 always success
  */
 
