@@ -7,7 +7,7 @@
  * Return: Always 0 id success
  */
 
-int mu(int num1, int num2)
+int mul(int num1, int num2)
 {
 	_putchar(mul(num1,num2);
 	
