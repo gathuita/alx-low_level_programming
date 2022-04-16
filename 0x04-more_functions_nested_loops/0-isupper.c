@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check whether is upper or lower
- *
- * Return: Always 0 if success
+ * _isupper - check whether is upper or lower
+ * @c the character to be tracked
+ * Return: 1 if true 0 if otherwise
  */
 int _isupper(int c)
 {
