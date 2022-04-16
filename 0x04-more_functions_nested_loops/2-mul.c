@@ -9,7 +9,9 @@
 
 int mul(int num1, int num2)
 {
-	_putchar(mul(num1,num2);
+	int result;
 	
-	return (0);
+	result = num1 * num2;
+
+	return (result);
 }
