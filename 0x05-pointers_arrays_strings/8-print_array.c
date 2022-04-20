@@ -5,7 +5,7 @@
  * print_array - Prints an input number of elements
  *               of an array of integers.
  *
- * @a: An array of integers.
+ * @arr: An array of integers.
  *
  * @n: The number of elements to be printed.
  */
