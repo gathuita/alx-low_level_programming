@@ -6,7 +6,7 @@
  * @b: second pointer.
  */
 
-void swap_int(inta *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int i;
 	i = *a;
