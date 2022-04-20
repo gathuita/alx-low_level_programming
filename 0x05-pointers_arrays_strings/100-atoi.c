@@ -29,6 +29,6 @@ int _atoi(char *s)
 		s++;
 	}
 	if (assign < 0)
-		sum = (-(su));
+		sum = (-(sum));
 	return (sum);
 }
