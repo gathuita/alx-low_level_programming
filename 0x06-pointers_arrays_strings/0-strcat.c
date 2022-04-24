@@ -13,6 +13,7 @@ char *_strcat(char *dest, char *src)
 
 	while (*(dest + index))
 	{
+		/*Increment index*/
 		index++;
 	}
 	while (*(src))
