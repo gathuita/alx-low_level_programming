@@ -2,12 +2,12 @@
 
 int main(void)
 {
-  int n;
-  int a[5];
-  int *p;
+  int i;
+  int i[5];
+  int *j;
 
-  a[2] = 1024;
-  p = &n;
+  i[2] = 1024;
+  j = &i;
   /*
    * write your line of code here...
    * Remember:
@@ -16,8 +16,8 @@ int main(void)
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
-  *(p + 5) = 98;
+  *(j + 5) = 98;
   /* ...so that this prints 98\n */
-  printf("a[2] = %d\n", a[2]);
+  printf("i[2] = %d\n", i[2]);
   return (0);
 }
