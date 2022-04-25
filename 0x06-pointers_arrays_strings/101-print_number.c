@@ -1,18 +1,31 @@
 #include "main.h"
 
 /**
- *print_number - prints an integer
- *@num: parameter to print integer
- *Return: Always 0
+ *print_number - print a number using _putchar.
+ *@num: the number to be printed.
  */
 
 void print_number(int num)
 {
-	int num = 98;
+	unsigned int i = 1;
 
-	_putchar(n);
-	printf('\n);
+	if (num < 0)
+	{
+		_putchar('-');
+		num *= -1;
+	}
+	if (num == 0)
+		_putchar('0');
+	else
+	{
+		while ((num / i) >= 10)
+			i *= 10;
 
-	return 0;
+		while (i > 0)
+		{
+			_putchar((num / i) + '0');
+			num %= i;
+			i /= 10;
+		}
+	}
 }
-
