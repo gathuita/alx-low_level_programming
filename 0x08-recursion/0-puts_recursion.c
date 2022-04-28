@@ -7,7 +7,9 @@
  */
 void _puts_recursion(char *s)
 {
-	_putchar("introduction to recursion");
+	char *s;
+	*s = "recursion";
+	_putchar(&s);
 
-	return (0);
+	return;
 }
