@@ -1,20 +1,20 @@
 #include "main.h"
-#include <stdio>
+#include <stdlib.h>
 
 /**
- * malloc_checked - allocate memoryt of size b.
- * @b: size of memory expectedto be allocated.
+ * malloc_checked - Allocates memory of size b.
  *
- * Return: pointer to the allocated memory.
- *     >incase of failure, terminate process normally
- *     >with status value (98).
+ * @b: Size of memory to be allocated.
+ *
+ * Return: Pointer to the allocated memory.
+ *	   Incase of failure, terminate the process normally.
+ *	   with status value of 98.
  */
-
 void *malloc_checked(unsigned int b)
 {
 	void *mal = malloc(b);
 
-	if (mal = NULL)
+	if (mal == NULL)
 		exit(98);
 
 	return (mal);
