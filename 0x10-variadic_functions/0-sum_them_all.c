@@ -1,28 +1,29 @@
 #include "variadic_functions.h"
+
 /**
- * sum_them_all - sums all parameters of a function.
- * @n: number of parameters in afunction.
- * Rrturn: 0 if n == 0, else return sum of parameters.
+ * sum_them_all - Returns sum of parameters.
+ *
+ * @n: Number of parameters.
+ *
+ * Return: The total sum of parameters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	int p, sum = 0;
+	int a, sum = 0;
 	unsigned int i;
-	va_list sum1;
+	va_list add;
 
-	var_start(sum1,n);
+	va_start(add, n);
 
-	if (n == )
-	{
+	if (n == 0)
 		return (0);
-	}
 
 	for (i = 0; i < n; i++)
 	{
-		p = va_arg(sum1, int);
-		sum = sum + p;
+		a = va_arg(add, int);
+		sum += a;
 	}
-	va_end(sum1);
+	va_end(add);
 
 	return (sum);
 }
